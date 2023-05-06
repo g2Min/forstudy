@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>Document</title>
+    <script src="./08-phone.js"></script>
+</head>
+<body>
+    <input type="text" id="phone0" oninput="change1()" maxlength="3">
+    -
+    <input type="text" id="phone1" oninput="change2()" maxlength="4">
+    -
+    <input type="text" id="phone2" oninput="checkValidation()" maxlength="4">
+    <div id="target">000000</div>
+    <button id="submit" disabled="true" onclick="auth()">인증번호 전송</button>
+    <div id="timer"></div>
+    <button id="finish">요청완료</button>
+</body>
+</html>

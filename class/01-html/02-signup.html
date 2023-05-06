@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <title>회원가입</title>
+    <!-- html과 css를 연결하는 방법
+    
+    -->
+    <style>
+        /* 2번째 방법인 식별자 
+        .pw{
+            border: 1px solid ;
+        }    */    
+        .content{
+            display:flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        #first{
+            padding: 10px;
+            width: 300px;
+            border-radius: 5px;
+        }
+        .radio{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="content">
+        <h2>회원가입</h2>
+        <!-- 1번재 방법인 html에 style 태그 삽입 (인라인 style) -->
+        <input type="text" id="first" placeholder="이메일을 입력해 주세요" ><br>
+        <input type="text" id="first" placeholder="이름을 입력해 주세요"><br>
+        <input class="pw" id="first" type="password" placeholder="비밀번호를 입력해 주세요"><br>
+        <input class="pw" id="first" type="password" placeholder="비밀번호를 다시 입력해 주세요">
+    
+        <br><br>
+        <div class="radio">
+            <input type="radio" name="gender">여성
+            <input type="radio" name="gender">남성
+            <br><br>
+        
+
+        <input type="checkbox"> 이용약관 개인정보 수집 및 동의
+        <hr></div>
+        <button style="border: 2px solid blue; width: 300x; height: 30px; " >가입하기</button>
+    </div>
+</body>
+</html>

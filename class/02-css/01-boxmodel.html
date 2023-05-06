@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="KO">
+<head>
+    <title>Document</title>
+    <style>
+         
+        *{
+            box-sizing: border-box;
+        }
+       
+        div{
+            /* div는 따로 태그가 표시되지 않는다. */
+            width: 80px;
+            height: 80px;
+            border: 1px solid red;
+            /* padding: 10px; */
+        }
+
+        .pb{
+            width:500px;
+            height: 500px;
+            padding: 1px solid blue;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            padding: 50px;
+        }
+        /*
+        #contentBox{
+            box-sizing: content-box;
+            /* 지정한 css 너비, 높이를 컨텐츠 영역에만 적용한다. "padding"제외 
+        }
+        #borderBox{
+            box-sizing: border-box;
+            /* 지정한 css 너비, 높이, 패딩을 보더 영역에만 적용한다. 즉 border가 content box 
+            영역보다 설정값이 작아질 수 있다. 
+        }*/
+
+    </style>
+</head>
+<body>
+    <!--  
+    <div id="contentBox">박스1</div>
+    <div>박스2</div>
+    <div id="borderBox">박스3</div>-->
+    <div class="pb">
+        <div>1</div>
+        <div>2</div>
+        <div>3</div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+.form1{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#email, #name, #pw1, #pw2 {
+    width: 500px;
+    padding: 20px 0px 20px 0px;
+} 
+
+.form2{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#num1, #num2, #num3{
+    width: 200px;
+    padding: 0px 10px 0px 10px;
+}
+
+.form3{
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.form4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.selectbox{
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.regionselct{
+    width: 100%;
+}
+
+.form6{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
