@@ -1,0 +1,19 @@
+/* .box1{
+    background-color: gray;
+    width: 400px;
+    height: 400px;
+    border: 1px solid red;
+    
+    padding: 50px;
+    margin: 50px;
+
+} */
+div{
+    background-color: gray;
+    width: 400px;
+    height: 400px;
+}
+
+.box1{
+    padding: 50px;
+}

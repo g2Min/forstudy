@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;    
+}
+
+.container{
+    background-color: azure;   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 0px;
+}
+
+.wrapper{
+    width: 620px;
+    background-color: white;
+    border: 1px solid gray;
+    padding: 40px 30px;
+    border-radius: 10px;
+}
+
+.wrapper__header{
+    border-bottom: 1px solid red;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}   
+
+.header__title{
+    font-size: 30px;
+    text-align: center;
+    background-color: coral;
+    color: white;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.header__subtitle{
+    font-size: 18px;
+    padding: 10px 0px;
+}
+
+#header__comment{
+    /* spane태그는 inline요소이므로 margin이 적용되지 않는다. */
+    display: block;
+    margin-top: 5px;
+    font-size: 22px;
+    color: orange;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.wrapper__body{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 20px 30px;
+}
+
+.diary__title{
+    background-color: lightgray;
+    border-radius: 10px;
+    padding: 5px 0px;
+    margin-bottom: 20px;
+}
+
+#kimchi{
+    color: red;
+    font-weight: bold;   
+}
+
+.egg{
+    color: orange;
+}
+
+.strong{
+    font-size: 18px;
+    color: blue;
+    font-weight: 700;
+    text-decoration: underline;
+    font-style: italic;
+}
+
+.body__weather{
+    text-align: right;
+    color: gray;
+font-size: 14px;
+}
